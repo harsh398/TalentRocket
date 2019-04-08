@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [TestNGReport]" parallel="methods">
+  <parameter name="environment" value="qa"/>
+  <test name="test(failed)" parallel="methods">
+    <classes>
+      <class name="test.test1">
+        <methods>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test.test1 -->
+      <class name="test.test2">
+        <methods>
+          <include name="selectLocation"/>
+          <include name="exit"/>
+          <include name="TitleTest"/>
+          <include name="setup"/>
+          <include name="jobSection"/>
+        </methods>
+      </class> <!-- test.test2 -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [TestNGReport] -->

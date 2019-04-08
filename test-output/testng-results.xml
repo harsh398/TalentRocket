@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNGReport" duration-ms="22279" started-at="2019-04-05T14:13:22Z" finished-at="2019-04-05T14:13:44Z">
+    <groups>
+    </groups>
+    <test name="test" duration-ms="22279" started-at="2019-04-05T14:13:22Z" finished-at="2019-04-05T14:13:44Z">
+      <class name="test.test1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.test1@5e5792a0]" name="setup" is-config="true" duration-ms="10215" started-at="2019-04-05T19:43:22Z" finished-at="2019-04-05T19:43:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.test2@26653222]" name="setup" is-config="true" duration-ms="7794" started-at="2019-04-05T19:43:32Z" finished-at="2019-04-05T19:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:0, instance:test.test1@5e5792a0]" name="verifyHomePageTitleTest" duration-ms="83" started-at="2019-04-05T19:43:40Z" finished-at="2019-04-05T19:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+      </class> <!-- test.test1 -->
+      <class name="test.test2">
+        <test-method status="PASS" signature="jobSection()[pri:1, instance:test.test2@26653222]" name="jobSection" duration-ms="211" started-at="2019-04-05T19:43:40Z" finished-at="2019-04-05T19:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobSection -->
+        <test-method status="PASS" signature="TitleTest()[pri:2, instance:test.test2@26653222]" name="TitleTest" duration-ms="7" started-at="2019-04-05T19:43:40Z" finished-at="2019-04-05T19:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleTest -->
+        <test-method status="PASS" signature="selectLocation()[pri:3, instance:test.test2@26653222]" name="selectLocation" duration-ms="1806" started-at="2019-04-05T19:43:40Z" finished-at="2019-04-05T19:43:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLocation -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:test.test2@26653222]" name="exit" is-config="true" duration-ms="2129" started-at="2019-04-05T19:43:42Z" finished-at="2019-04-05T19:43:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- test.test2 -->
+    </test> <!-- test -->
+  </suite> <!-- TestNGReport -->
+</testng-results>
